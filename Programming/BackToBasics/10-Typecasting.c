@@ -1,3 +1,5 @@
+//Program that ultiises typecasting to correct integer division.
+
 #include <stdio.h>
 
 int main()
