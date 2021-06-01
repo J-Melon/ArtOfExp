@@ -1,3 +1,6 @@
+//Program that iterates across a char array and an int array.
+//Shows they iterate a different number of bytes across in memory; as a char is one byte and an int is four.
+
 #include <stdio.h>
 
 int main(void)
