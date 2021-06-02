@@ -1,3 +1,8 @@
+//Program prints value of i in different functions.
+//Shows i is declared multiple times in multiple different scopes.
+//Therefore each function uses a different 'version' of the i variable.
+//Which can be retrieved only in that function.
+
 #include <stdio.h>
 
 void func3()
