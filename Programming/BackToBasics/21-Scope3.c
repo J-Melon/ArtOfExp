@@ -1,3 +1,7 @@
+//Program prints value of i and j in different functions, also denoting their memory addresses.
+//Shows that different local variables with the same label (i and j) are stored in different memory locations. 
+//Therefore, they are entirely different variables. 
+
 #include <stdio.h>
 
 int j = 42; //j is a global variable.
