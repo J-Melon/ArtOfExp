@@ -1,3 +1,7 @@
+//Allocates and deallocates memory for pointers on the heap.
+//Shows that after a certain size deallocated memory will be utilised.
+//Instead of increasing the size of the heap, it will use that lower memory address.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -18,12 +22,12 @@ int main(int argc, char *argv[])
     }
 
     printf("\t[+] allocating %d bytes of memory on the heap for charPtr\n", memSize);
-    charPtr = (char *) malloc(memSize); //Allocated heap memory
+    charPtr = (char *) malloc(memSize); //Allocated heap memory - returns void pointer cast to char
 
     //Error checking in case malloc() fails
     if(charPtr == NULL)
     {
-        fprintf(stderr, "Error: could not allocate heap memory.\n");
+        fprintf(stderr, "Error: could not allocate heap memory.\n"); //printf for std filestream
         exit(-1);
     }
 
