@@ -1,4 +1,4 @@
-//Prints addresses and values of pointers and variables 
+// Prints addresses and values of pointers and variables 
 
 #include <stdio.h>
 

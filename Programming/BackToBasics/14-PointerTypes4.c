@@ -1,6 +1,6 @@
-//Program that iterates across a character array and an integer array.
-//Shows that a void pointer can be used to iterate across both the character array and the integer array.
-//As typecasting is used.
+// Program that iterates across a character array and an integer array.
+// Shows that a void pointer can be used to iterate across both the character array and the integer array.
+// As typecasting is used.
 
 #include <stdio.h>
 
@@ -17,7 +17,7 @@ int main(void)
 
     for (i = 0; i < 5; i++)
     {
-        //Iterate through the char array with the void pointer.
+        // Iterate through the char array with the void pointer.
         printf("[char pointer] points to %p, which contains the char '%c'\n",
                 voidPointer, *((char *) voidPointer));
         voidPointer = (void *) ((char *) voidPointer + 1);
@@ -27,7 +27,7 @@ int main(void)
 
     for (i = 0; i < 5; i++)
     {
-        //Iterate through the integer array with the void pointer.
+        // Iterate through the integer array with the void pointer.
         printf("[integer pointer] points to %p, which contains the integer %d\n",
                 voidPointer, *((int *) voidPointer));
         voidPointer = (void *) ((int *) voidPointer + 1);

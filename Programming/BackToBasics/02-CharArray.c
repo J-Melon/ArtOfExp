@@ -1,4 +1,4 @@
-//Prints hello world via a discretely-made character array.
+// Prints hello world via a discretely-made character array.
 
 #include <stdio.h>
 

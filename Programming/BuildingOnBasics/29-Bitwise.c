@@ -1,5 +1,5 @@
-//Prints the results of OR, AND bitwise operations.
-//Shows that integers can be used to perform logic operations.
+//  Prints the results of OR, AND bitwise operations.
+//  Shows that integers can be used to perform logic operations.
 
 #include <stdio.h>
 
@@ -10,7 +10,7 @@ int main(void)
 
     for (i = 0; i < 4; i++)
     {
-        bitA = (i & 2) / 2; //Get the second bit
+        bitA = (i & 2) / 2; //  Get the second bit
         bitB = (i & 1);
         printf("%d | %d = %d\n", bitA, bitB, bitA | bitB);
     }
@@ -19,8 +19,8 @@ int main(void)
 
     for(i = 0; i < 4; i++)
     {
-        bitA = (i & 2) / 2; //Get the second bit
-        bitB = (i & 1); //Get the first bitB
+        bitA = (i & 2) / 2; //  Get the second bit
+        bitB = (i & 1); //  Get the first bitB
         printf("%d & %d = %d\n", bitA, bitB, bitA & bitB);
     }
 }

@@ -1,4 +1,4 @@
-//Program that ultiises typecasting to correct integer division.
+// Program that ultiises typecasting to correct integer division.
 
 #include <stdio.h>
 
@@ -10,8 +10,8 @@ int main()
     a = 13;
     b = 5;
 
-    c = a / b; //Divide using integers.
-    d = (float) a / (float) b; //Divide integers typecast as floats
+    c = a / b; // Divide using integers.
+    d = (float) a / (float) b; // Divide integers typecast as floats
 
     printf("[integers]\t a = %d\t b = %d\n", a, b);
     printf("[floats]\t c = %f\t d = %f\n", c, d);

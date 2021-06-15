@@ -1,5 +1,5 @@
-//Prints size of memory allocation of various types.
-//Notice how long and long long sizes vary depending on platform.
+// Prints size of memory allocation of various types.
+// Notice how long and long long sizes vary depending on platform.
 
 #include <stdio.h>
 

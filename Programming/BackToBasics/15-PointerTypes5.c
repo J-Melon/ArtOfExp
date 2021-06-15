@@ -1,6 +1,6 @@
-//Program that iterates across a character array and an integer array using a long as a pointer.
-//Shows that a pointer just needs to have a memory address to function.
-//Therefore a pointer does not have to be cast as such, as seen here.
+// Program that iterates across a character array and an integer array using a long as a pointer.
+// Shows that a pointer just needs to have a memory address to function.
+// Therefore a pointer does not have to be cast as such, as seen here.
 
 #include <stdio.h>
 
@@ -15,7 +15,7 @@ int main()
 
     hacky_nonpointer = (long) char_array;
 
-    //Iterate through the char array with an unsigned integer
+    // Iterate through the char array with an unsigned integer
     for (i = 0; i < 5; i++)
     {
         printf("[hacky_pointer] points to %p, which contains the char '%c'\n", 
@@ -25,7 +25,7 @@ int main()
 
     hacky_nonpointer = (long) int_array;
     
-    //Iterate through the int array with an unsigned integer 
+    // Iterate through the int array with an unsigned integer 
     for (i = 0; i < 5; i++)
     {
         printf("[hacky_nonpointer] points to %p, which contains the integer %d\n",

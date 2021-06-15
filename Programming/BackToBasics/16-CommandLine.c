@@ -1,5 +1,5 @@
-//Counts number of arguments provided.
-//An introduction into command-line arguments.
+// Counts number of arguments provided.
+// An introduction into command-line arguments.
 
 #include <stdio.h>
 
