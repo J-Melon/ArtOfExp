@@ -95,3 +95,17 @@ void *ecMalloc(unsigned int size)
 //O_APPEND Write data at the end of the file
 //O_TRUNC If the file already exists, truncate (shorten) the file to 0 length
 //O_CREAT Create the file if it doesn't exist
+
+//Permission giving flags
+//--To user (owner)--
+//S_IRUSR Read.
+//S_IWUSR Write.
+//S_IXUSR Execute.
+//--To group--
+//S_IRGRP Read.
+//S_IWGRP Write.
+//S_IXGRP Execute.
+//--Other (to anyone)--
+//S_IROTH Read.
+//S_IWOTH Write.
+//S_IXOTH Execute.
