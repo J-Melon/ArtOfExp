@@ -5,7 +5,7 @@
 #include <string.h>
 #include <fcntl.h> // Defines the flags used w/ open() - used to set access mode (read/write etc.)
 #include <sys/stat.h> // ^^
-#include <unistd.h> // For write() and close()
+#include <unistd.h> // For write(), close(), and getuid()
 #include "hacking.h"
 
 void usage(char *progName, char *filename)
@@ -48,6 +48,8 @@ int main(int argc, char *argv[])
     printf("[DEBUG] file descriptor is %d\n", fd);
 
     userid = getuid(); // Get real user id
+
+    printf("\nUID:%d", userid);
 
     // Writing data
     // Write user id before note data.
