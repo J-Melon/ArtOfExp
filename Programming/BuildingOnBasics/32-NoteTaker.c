@@ -36,8 +36,6 @@ int main(int argc, char *argv[])
     printf("[DEBUG] buffer   @ %p: \'%s\'\n", buffer, buffer);
     printf("[DEBUG] datafile @ %p: \'%s\'\n", datafile, datafile);
 
-    strcat(buffer, "\n"); // Add a newline onto the end
-
     // Opening file
     fd = open(datafile, O_WRONLY|O_CREAT|O_APPEND, S_IRUSR|S_IWUSR);
     if (fd == -1) // -1 denotes an exception
@@ -49,7 +47,7 @@ int main(int argc, char *argv[])
 
     userid = getuid(); // Get real user id
 
-    printf("\nUID:%d", userid);
+    printf("\nUID:%d", userid); //Test-code
 
     // Writing data
     // Write user id before note data.

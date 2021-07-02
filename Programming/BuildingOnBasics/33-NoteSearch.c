@@ -19,8 +19,8 @@ int main(int argc, char *argv[])
     int userID, printing = 1, fd; // File descriptor
     char searchString[100];
 
-    if (argc > 1) { strcpy(searchString, argv[1]); }
-    else { searchString[0] = 0; }
+    if (argc > 1) { strcpy(searchString, argv[1]); } // If there is a search string, use it
+    else { searchString[0] = 0; } // Otherwise search string is empty
 
     userID = getuid();
     fd = open(FILENAME, O_RDONLY); // Open the file for read-only access
