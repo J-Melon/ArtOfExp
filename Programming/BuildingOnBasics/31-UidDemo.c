@@ -1,5 +1,5 @@
 // Prints both the real and effective id of a user.
-// Shows that a file or program can effectively alter the file permission of a user.
+// Shows that a file or program can effectively alter a user's id.
 
 #include <stdio.h>
 #include <unistd.h>

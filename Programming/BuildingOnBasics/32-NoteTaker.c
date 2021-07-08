@@ -1,4 +1,5 @@
 // Writes a string from a command-line argument to a file in var.
+// Shows how a multi-user note taking app functions
 
 #include <stdio.h>
 #include <stdlib.h>

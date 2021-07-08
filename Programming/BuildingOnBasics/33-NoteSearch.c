@@ -1,4 +1,5 @@
-//This searches through the file notes in var
+// This searches through the file notes in var.
+// Shows how a specific user's notes can be found, without showing other user's notes. 
 
 #include <stdio.h>
 #include <string.h>
